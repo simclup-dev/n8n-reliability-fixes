@@ -4,6 +4,13 @@ This repo is a sanitized case-study version of a production debugging job around
 an `n8n` reminder workflow that looked fixed in the editor but still behaved
 wrong in production.
 
+## What this repo shows
+
+- how to debug the gap between editor state and real runtime state
+- how to patch SQLite-backed workflow data carefully and reproducibly
+- how to use independent signals instead of trusting the UI alone
+- how to turn a one-off production fix into a repeatable operational workflow
+
 ## The failure pattern
 
 The workflow had several overlapping issues:
