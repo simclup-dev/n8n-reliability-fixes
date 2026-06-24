@@ -26,6 +26,20 @@ The workflow had several overlapping issues:
 - examples of safer state-file usage for cross-workflow coordination
 - a repeatable workflow for proving whether a trigger really fires
 
+## Screenshots
+
+### Reminder workflow
+
+![Reminder workflow](docs/screenshots/01-reminder-workflow.png)
+
+### Subscription scanner workflow
+
+![Subscription scanner workflow](docs/screenshots/02-subscription-scanner-workflow.png)
+
+### Patch scripts
+
+![Patch scripts](docs/screenshots/03-scripts.png)
+
 ## What this repo intentionally does not contain
 
 - live `n8n` databases
